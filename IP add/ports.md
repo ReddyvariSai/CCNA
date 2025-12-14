@@ -62,35 +62,43 @@ So, there are **1024 well-known ports**.
 
 ## 🔐 Important Well-Known Ports with Names & Full Forms
 
-| Port | Protocol | Service Name | Full Form |
-|-----:|:--------:|-------------|----------|
-| 20 | TCP | FTP (Data) | File Transfer Protocol |
-| 21 | TCP | FTP (Control) | File Transfer Protocol |
-| 22 | TCP | SSH | Secure Shell |
-| 23 | TCP | Telnet | Teletype Network |
-| 25 | TCP | SMTP | Simple Mail Transfer Protocol |
-| 53 | TCP/UDP | DNS | Domain Name System |
-| 67 | UDP | DHCP (Server) | Dynamic Host Configuration Protocol |
-| 68 | UDP | DHCP (Client) | Dynamic Host Configuration Protocol |
-| 69 | UDP | TFTP | Trivial File Transfer Protocol |
-| 80 | TCP | HTTP | HyperText Transfer Protocol |
-| 110 | TCP | POP3 | Post Office Protocol Version 3 |
-| 119 | TCP | NNTP | Network News Transfer Protocol |
-| 123 | UDP | NTP | Network Time Protocol |
-| 137 | UDP | NetBIOS | Network Basic Input Output System |
-| 138 | UDP | NetBIOS Datagram | Network Basic Input Output System |
-| 139 | TCP | NetBIOS Session | Network Basic Input Output System |
-| 143 | TCP | IMAP | Internet Message Access Protocol |
-| 161 | UDP | SNMP | Simple Network Management Protocol |
-| 162 | UDP | SNMP Trap | Simple Network Management Protocol |
-| 179 | TCP | BGP | Border Gateway Protocol |
-| 389 | TCP/UDP | LDAP | Lightweight Directory Access Protocol |
-| 443 | TCP | HTTPS | HyperText Transfer Protocol Secure |
-| 445 | TCP | SMB | Server Message Block |
-| 514 | UDP | Syslog | System Logging Protocol |
-| 520 | UDP | RIP | Routing Information Protocol |
+| Port | Protocol | Service Name | Full Form | How It Works in Networking |
+|-----:|:--------:|-------------|----------|-----------------------------|
+| 20 | TCP | FTP (Data) | File Transfer Protocol |  Transfers actual file data from server to client |
+| 21 | TCP | FTP (Control) | File Transfer Protocol | Establishes FTP connection and sends commands |
+| 22 | TCP | SSH | Secure Shell | Secure remote login and encrypted command execution |
+| 23 | TCP | Telnet | Teletype Network | Remote login without encryption |
+| 25 | TCP | SMTP | Simple Mail Transfer Protocol | Sends emails from client to mail server |
+| 53 | TCP/UDP | DNS | Domain Name System | Converts domain names into IP addresses |
+| 67 | UDP | DHCP (Server) | Dynamic Host Configuration Protocol | Assigns IP address to client |
+| 68 | UDP | DHCP (Client) | Dynamic Host Configuration Protocol | Requests IP configuration from DHCP server |
+| 69 | UDP | TFTP | Trivial File Transfer Protocol | Transfers small files without authentication |
+| 80 | TCP | HTTP | HyperText Transfer Protocol |  Transfers web pages in plain text |
+| 110 | TCP | POP3 | Post Office Protocol Version 3 | Downloads emails from mail server |
+| 119 | TCP | NNTP | Network News Transfer Protocol | Transfers Usenet news articles |
+| 123 | UDP | NTP | Network Time Protocol | Synchronizes system time over network |
+| 137 | UDP | NetBIOS | Network Basic Input Output System | Resolves NetBIOS names to IP addresses |
+| 138 | UDP | NetBIOS Datagram | Network Basic Input Output System | Sends NetBIOS datagram messages |
+| 139 | TCP | NetBIOS Session | Network Basic Input Output System | Provides file and printer sharing sessions |
+| 143 | TCP | IMAP | Internet Message Access Protocol |  Accesses emails directly on mail server |
+| 161 | UDP | SNMP | Simple Network Management Protocol | Monitors and manages network devices |
+| 162 | UDP | SNMP Trap | Simple Network Management Protocol | Sends alerts from devices to SNMP manager |
+| 179 | TCP | BGP | Border Gateway Protocol | Exchanges routing information between ISPs |
+| 389 | TCP/UDP | LDAP | Lightweight Directory Access Protocol | Accesses and manages directory services |
+| 443 | TCP | HTTPS | HyperText Transfer Protocol Secure | Secure encrypted web communication |
+| 445 | TCP | SMB | Server Message Block | File and printer sharing in Windows networks |
+| 514 | UDP | Syslog | System Logging Protocol | Sends system log messages to log server |
+| 520 | UDP | RIP | Routing Information Protocol | Exchanges routing information between routers |
 
 ---
+## 🧠 Simple Understanding
+
+- **Client** uses a random port  
+- **Server** listens on a **well-known port**
+- Data is sent using **IP + Port Number**
+
+Example:
+
 
 ## 📘 Notes
 
