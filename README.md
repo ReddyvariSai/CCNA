@@ -26,7 +26,7 @@
 22. TCP / IP and UDP
 23. Standard Access Control List
 24. Extended Access Control List
-25. CDP and LLDP
+25. CDP and LLDP (#CDP and LLDP (Layer 2 Discovery Protocol).md)
 26. NTP - Network Time Protocol
 27. DNS - Domain Name System
 28. DHCP - Dynamic Host Configuration Protocol
