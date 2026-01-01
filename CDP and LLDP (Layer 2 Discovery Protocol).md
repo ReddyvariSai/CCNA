@@ -1,4 +1,4 @@
-# 36. CDP and LLDP (Layer 2 Discovery Protocol)
+# CDP and LLDP (Layer 2 Discovery Protocol)
 
 INTRO TO LAYER 2 DISCOVERY PROTOCOLS
 
